@@ -1,0 +1,27 @@
+   /* Container holding the image and the text */
+        .container {
+        position: relative;
+        }
+        .middle-left {
+            position: absolute;
+            top: 50%;
+            left: 16px;
+            color: white;
+           padding-left: 20px;
+           padding-right: 20px;
+        }
+
+h1 {
+  font-size: 100px;
+  color:white;
+}
+
+p {
+  font-size: 40px;
+  color:white;
+}
+
+.btn-lg {
+    background-color: #40E0D0;
+    color: white;
+}
