@@ -1,10 +1,9 @@
-   /* Container holding the image and the text */
-        .container {
-        position: relative;
-        }
-        .middle-left {
+ .container {
+    position: relative;
+     }
+        .top-left {
             position: absolute;
-            top: 50%;
+            top: 8px;
             left: 16px;
             color: white;
            padding-left: 20px;
@@ -12,16 +11,54 @@
         }
 
 h1 {
-  font-size: 100px;
+  font-size: 150px;
   color:white;
+  text-align: center;
 }
 
+h2 {
+  font-size: 85px;
+  color:white;
+  text-align: center;
+}
 p {
-  font-size: 40px;
-  color:white;
+  font-size: 30px;
+  color:black;
+  text-align: center;
+  margin: 0%;
 }
 
-.btn-lg {
-    background-color: #40E0D0;
-    color: white;
+h4 {
+  font-size: 50px;
+  color:black;
+  text-align: center;
+}
+
+h5 {
+  font-size: 80px;
+  color:#40E0D0;
+  text-align: center;
+}
+.button{
+  background-color: #40E0D0;
+  border: none;
+  color: white;
+  padding: 20px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.center-left-text {
+  text-align: left;
+}
+
+.left {
+  top: 50%;
+  left: 100px;
+}
+
+.underpicture{
+  color: back;
 }
