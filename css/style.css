@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  font-size: 85px;
+  font-size: 70px;
   color:white;
   text-align: center;
 }
@@ -36,6 +36,12 @@ h4 {
 
 h5 {
   font-size: 80px;
+  color:#40E0D0;
+  text-align: center;
+}
+
+h6 {
+  font-size: 40px;
   color:#40E0D0;
   text-align: center;
 }
@@ -62,3 +68,29 @@ h5 {
 .underpicture{
   color: back;
 }
+
+.left-aligned-text {
+  text-align: left;
+}
+
+.bottom-left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.left-aligned-text {
+    max-width: 50%;
+}
+
+.right-image {
+    margin-left: auto;
+    display: block;
+}
+
+
+.left-aligned-text p:last-child {
+    margin-top: 40px; 
+}
+
+
